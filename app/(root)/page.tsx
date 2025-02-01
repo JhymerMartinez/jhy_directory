@@ -1,3 +1,13 @@
 export default function Home() {
-  return <h1 className="text-3xl">Home</h1>;
+  return (
+    <section className="pink_container">
+      <h1 className="heading">
+        Pitch your Startup, <br /> Connect with Entrepreneurs
+      </h1>
+      <p className="sub-heading !max-w-3xl">
+        JHY Directory is a platform for entrepreneurs to pitch their startup
+        ideas, get feedback and connect with other entrepreneurs.
+      </p>
+    </section>
+  );
 }
